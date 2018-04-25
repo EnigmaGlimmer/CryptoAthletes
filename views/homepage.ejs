@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>CryptoAthletes</title>
+
+    <meta name="description" content="Dexio">
+    <meta name="author" content="Tim Clancy">
+
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="page-header">
+        <h1>
+          Athletes <small>Dashboard</small>
+        </h1>
+      </div>
+
+      <div class="panel panel-default">
+        <label for="diamond" class="col-lg-2 control-label">Athlete Name</label>
+        <input id="diamond" type="text">
+        <button id="createButton" onClick="window.location.reload()">Create Athlete</button>
+        <p id="demo"></p>
+      </div>
+
+      <div class="panel panel-default">
+        <label for="changeName" class="col-lg-2 control-label">Change Athlete Name To</label>
+        <input id="changeName" type="text">
+        <button id="changeNameButton" onClick="window.location.reload()">Change Athlete Name</button>
+        <p id="notValidLevel"></p>
+      </div>
+
+      <div class="panel panel-default">
+        <button id="attackButton" onClick="window.location.reload()">FaceOff Against Nick Foles</button>
+        <button id="levelUpButton" onClick="window.location.reload()">Buy Level Up (.001 Ether)</button>
+        <button id="buyPackButton" onClick="window.location.reload()">Buy Pack of 2 Players (.080 Ether)</button>        
+      </div>
+      
+      <textarea rows="6" cols="50" id="athletestats"> </textarea>
+
+      <div id="x"></div>
+
+      <h1>Opposing Athletes</h1>
+
+      <textarea rows="6" cols="50" id="enemystats"> </textarea>
+      
+      <div id="nickfoles" ></div>
+
+      <div class="panel panel-default">
+        
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/web3.min.js"></script>
+    <script src="/js/scripts.js"></script>
+  </body>
+</html>
