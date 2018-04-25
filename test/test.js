@@ -21,7 +21,6 @@ contract('AthleteCoin', function (accounts) {
 
   const _creator = accounts[0];
 
-
   beforeEach(async function () {
     token = await AthleteCoin.new({ from: _creator });
     token2 = await AthleteCoin.new({ from: accounts[1] })
