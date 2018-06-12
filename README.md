@@ -27,6 +27,8 @@ Once a user possesses a Cryptoathlete, he/she can choose to faceoff/matchup agai
 
 Users that have athlete tokens of at least level 2 can select an option to change their name to any of their choosing. Users can also change their DNA to whatever uint of their choosing; however, the athlete tokens that they wish to change must be at least level 20. Athlete tokens that do not meet the level requirement will not be able to do these actions. The following functions are called by the frontend when changing either name or DNA:
 
+![picture4](https://user-images.githubusercontent.com/10999750/41309464-b815d47c-6e33-11e8-9c14-ee583a546c63.png)
+
 ### Pay to Level Up
 
 Users have the option to pay a fee to increase the level of their desired athlete token by one level. Within the game, users can simply choose the option to level up their players, and the application will take their appropriate ether fees and increase the level of those players. The following function is called by the front end when paying to level up:
