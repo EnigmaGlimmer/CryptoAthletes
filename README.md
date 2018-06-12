@@ -1,4 +1,4 @@
-# EAS 499 Senior Project: Cryptoathletes
+# University of Pennsylvania EAS 499 Senior Project: Cryptoathletes
 
 Motivated by Cryptokitties’ successful application of the ERC-721 token standard, we sought out to create a similar Dapp game that focuses on professional athletes. Cryptoathletes are digital, collectible football athletes built on the Ethereum blockchain. They can be bought and created using ether, and can battle/faceoff against other users’ Cryptoathletes. Each athlete token possesses a set of offensive and defensive attributes that affects whether it will be victorious in a faceoff against another athlete token. Any new user of Cryptoathletes can create one free random athlete for his or herself after joining the game. Additional athletes are available for purchase through a pack system. Similar to popular App Store games, such as Hearthstone, users can purchase packs of these digitally collectible players (two athletes per pack) using ether. 
 
