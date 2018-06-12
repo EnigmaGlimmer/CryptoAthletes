@@ -33,6 +33,8 @@ Users that have athlete tokens of at least level 2 can select an option to chang
 
 Users have the option to pay a fee to increase the level of their desired athlete token by one level. Within the game, users can simply choose the option to level up their players, and the application will take their appropriate ether fees and increase the level of those players. The following function is called by the front end when paying to level up:
 
+![picture5](https://user-images.githubusercontent.com/10999750/41309513-cee3f1d4-6e33-11e8-9487-e30c5a1ce943.png)
+
 ### Transfer Athlete
 
 Users have the option to transfer their tokens to other players. I was not able to implement an auctioning or exchange to trade these players for this iteration of the application. Nonetheless, in its current version, users can give/gift their athlete tokens to other users of their choice. In future versions of this applications, I would add an auction system, so players can barter their athlete tokens. The following lines of code are called by the frontend when transferring an athlete token to another player:
