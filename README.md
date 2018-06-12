@@ -20,6 +20,7 @@ New users as noted, cannot generate more than one athlete token for his/herself.
 
 Once a user possesses a Cryptoathlete, he/she can choose to faceoff/matchup against other users’ Cryptoathletes. The user can choose to attack whichever opposing athlete token he/she chooses. If the user successfully defeats the opposing athlete token that he/she has attacked, then a win will be recorded to the winning athlete token and a loss will be recorded to the losing athlete token. The probability that the user’s athlete will win against an opposing athlete is o_1/(o_1+d_2 ), where o1 is the offensive rating of the attacking athlete and d2 is the defensive rating of the defending athlete. The game probability mechanism was designed, so that these battles would depend on the game attributes of each athlete token. If the face off results in a win, the attacking athlete token’s offensive rating earns a one-point increase, while the defending athlete token’s defensive rating decreases by one point. Otherwise, if the face off is a loss, the attacking token’s offensive rating decreases by one point, while the defending token earns one defensive rating point. In the current iteration of the application, new users can test this functionality by choosing to face off against a dummy (default settings) athlete owned by a dummy Ethereum account. The following function is executed during an attack:
 
+![picture3](https://user-images.githubusercontent.com/10999750/41309391-8c14fa92-6e33-11e8-9042-42a779c03044.png)
 
 
 ### Change your Athlete’s Name/DNA
