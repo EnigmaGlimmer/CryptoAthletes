@@ -39,6 +39,7 @@ Users have the option to pay a fee to increase the level of their desired athlet
 
 Users have the option to transfer their tokens to other players. I was not able to implement an auctioning or exchange to trade these players for this iteration of the application. Nonetheless, in its current version, users can give/gift their athlete tokens to other users of their choice. In future versions of this applications, I would add an auction system, so players can barter their athlete tokens. The following lines of code are called by the frontend when transferring an athlete token to another player:
 
+![picture6](https://user-images.githubusercontent.com/10999750/41309552-e85ee416-6e33-11e8-8289-bcd25a8356ec.png)
 
 ### Front End Features and Images
 
