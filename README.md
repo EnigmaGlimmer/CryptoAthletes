@@ -45,6 +45,8 @@ Users have the option to transfer their tokens to other players. I was not able 
 
 In the front-end application, the images that appear for the athlete tokens are stored locally. Therefore, it is not an image associated with that specific token it on the blockchain. Rather, the front end renders certain images it has stored locally when it interacts with the token’s information on the blockchain. Thus, the users of the tokens do not own the specific image associated with their athlete. This is not a big issue because the token’s attributes are what make it valuable, not its image. Owners of Cryptokitties have some sort of ownership of their kitten token’s image because each token has a unique DNA attribute that determines its physical appearance. Cryptokitties, however, owns the algorithm that determines what image the DNA corresponds to. The following are snapshots of my frontend application when run locally. This is the view of the user’s athlete token profile after an athlete token is created:
 
+![picture7](https://user-images.githubusercontent.com/10999750/41309593-040ad526-6e34-11e8-9f8d-63a0856c016e.png)
+
 The following is the view of the opposing (fixed enemy athlete token) that the current user can choose to battle with his/her athlete tokens:
 
 
