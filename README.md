@@ -14,9 +14,13 @@ In Cryptoathletes, first time users have the ability to generate their own ERC-7
 
 New users as noted, cannot generate more than one athlete token for his/herself. However, users can purchase additional tokens for his/herself using ether. In the app, users can pay a fee (currently set at 0.08 ether) to buy a pack of two randomly generated (both have random DNAs, random names, and default ratings). There is no limit to the amount of packs a user can buy; however, it is important to note that if this game was to scale, the price of a pack could greatly affect the transaction speed and transaction costs (We will discuss, in detail, the Ethereum transaction costs, gas prices, and transaction speed later.) of the Dapp. The following function is executed by the front end to purchase the pack of athletes for the user:
 
+![picture2](https://user-images.githubusercontent.com/10999750/41309317-586db09e-6e33-11e8-9e31-c05cd68f1b9e.png)
+
 ### Face Off Against Other Athlete Tokens
 
 Once a user possesses a Cryptoathlete, he/she can choose to faceoff/matchup against other users’ Cryptoathletes. The user can choose to attack whichever opposing athlete token he/she chooses. If the user successfully defeats the opposing athlete token that he/she has attacked, then a win will be recorded to the winning athlete token and a loss will be recorded to the losing athlete token. The probability that the user’s athlete will win against an opposing athlete is o_1/(o_1+d_2 ), where o1 is the offensive rating of the attacking athlete and d2 is the defensive rating of the defending athlete. The game probability mechanism was designed, so that these battles would depend on the game attributes of each athlete token. If the face off results in a win, the attacking athlete token’s offensive rating earns a one-point increase, while the defending athlete token’s defensive rating decreases by one point. Otherwise, if the face off is a loss, the attacking token’s offensive rating decreases by one point, while the defending token earns one defensive rating point. In the current iteration of the application, new users can test this functionality by choosing to face off against a dummy (default settings) athlete owned by a dummy Ethereum account. The following function is executed during an attack:
+
+
 
 ### Change your Athlete’s Name/DNA
 
