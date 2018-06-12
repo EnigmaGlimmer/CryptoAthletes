@@ -49,4 +49,6 @@ In the front-end application, the images that appear for the athlete tokens are 
 
 The following is the view of the opposing (fixed enemy athlete token) that the current user can choose to battle with his/her athlete tokens:
 
+![picture8](https://user-images.githubusercontent.com/10999750/41309626-238e86b8-6e34-11e8-841e-db15d32c783a.png)
+
 
